@@ -1,0 +1,23 @@
+.container {
+    background-color: deepskyblue;
+}
+
+.navbar {
+    background-color: darkorange;
+}
+
+.nav-menu {
+    background-color: darksalmon;
+}
+
+.section-top {
+    background-color: aquamarine;
+}
+
+.section-middle {
+    background-color: hotpink;
+}
+
+.section-bottom {
+    background-color: green;
+}
