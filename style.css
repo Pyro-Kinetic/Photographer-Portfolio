@@ -1,6 +1,10 @@
 
 .container {
-    background-color: deepskyblue;
+    background-color: #011627;
+}
+
+.custom-container {
+    background-color: #011627;
 }
 
 .navbar {
@@ -32,6 +36,10 @@
 }
 
 /*custom link colors*/
+.is-hidden {
+    display: none;
+}
+
 .btn-custom {
     color: #011627;
     background-color: #f97068;
