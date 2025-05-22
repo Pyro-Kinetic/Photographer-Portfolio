@@ -1,20 +1,12 @@
 
-.container {
-    background-color: #011627;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
-.custom-container {
-    background-color: #011627;
-}
 
-.navbar {
-    background-color: #011627;
-}
-
-.nav-menu {
-    background-color: darksalmon;
-}
-
+/*---------------------------------------------------structure-------------------------------------------------------*/
 .section-top {
     background-color: aquamarine;
 }
@@ -27,7 +19,7 @@
     background-color: green;
 }
 
-/*font*/
+/*---------------------------------------------------------fonts-----------------------------------------------------*/
 .shadows-into-light-regular {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -35,24 +27,74 @@
     color: #f97068;
 }
 
-/*custom link colors*/
-.is-hidden {
-    display: none;
+/*use a weight value from 100-900*/
+.roboto-900 {
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
 }
 
-.btn-custom {
+/*---------------------------------------------------colors---------------------------------------------*/
+.rich-black {
     color: #011627;
+}
+
+.rich-black-background {
+    background-color: #011627;
+}
+
+.bitter-sweet {
+    color: #f97068;
+}
+
+.bitter-sweet-background {
     background-color: #f97068;
 }
 
-.fa-custom-color {
+.orange-web {
     color: #fcab10;
 }
 
-.btn-custom:hover {
+.orange-web-background {
     background-color: #fcab10;
 }
 
-.fa-custom-color:hover {
+.bootstrap-info {
+    color: #54b4d3;
+}
+
+.bootstrap-info {
+    background-color: #54b4d3;
+}
+
+.fandango {
+    color: #C11F96
+}
+
+.fandango-background {
+    background-color: #C11F96;
+}
+
+/*--------------------------------------------------hover effects-------------------------------------------------*/
+.bitter-sweet-background:hover {
+    background-color: #fcab10;
+}
+
+.orange-web-background:hover {
+    background-color: #f97068;
+}
+
+.bitter-sweet:hover {
+    color: #fcab10;
+}
+
+.orange-web:hover {
     color: #f97068;
+}
+
+/*-----------------------------------------------media queries------------------------------------------------------*/
+.is-hidden {
+    display: none;
 }
