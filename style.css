@@ -1,9 +1,10 @@
+
 .container {
     background-color: deepskyblue;
 }
 
 .navbar {
-    background-color: darkorange;
+    background-color: #011627;
 }
 
 .nav-menu {
@@ -20,4 +21,30 @@
 
 .section-bottom {
     background-color: green;
+}
+
+/*font*/
+.shadows-into-light-regular {
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+    color: #f97068;
+}
+
+/*custom link colors*/
+.btn-custom {
+    color: #011627;
+    background-color: #f97068;
+}
+
+.fa-custom-color {
+    color: #fcab10;
+}
+
+.btn-custom:hover {
+    background-color: #fcab10;
+}
+
+.fa-custom-color:hover {
+    color: #f97068;
 }
