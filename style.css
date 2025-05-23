@@ -7,8 +7,13 @@
 
 
 /*---------------------------------------------------structure-------------------------------------------------------*/
-.section-top {
-    background-color: aquamarine;
+
+.c-intro-text {
+    rotate: -10deg;
+}
+
+.cursor-default {
+    cursor: default;
 }
 
 .section-middle {
@@ -25,6 +30,7 @@
     font-weight: 400;
     font-style: normal;
     color: #f97068;
+    /*text-shadow: 0 0 2px #011627;*/
 }
 
 /*use a weight value from 100-900*/
