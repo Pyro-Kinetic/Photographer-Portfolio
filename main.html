@@ -25,31 +25,76 @@
     <title>Welcome Page</title>
 </head>
 <body>
-<div class="container rich-black-background">
-<!-----------------------------------------navbar---------------------------------------------------------------------->
+<div class="container-fluid rich-black-background">
+    <!-----------------------------------------navbar---------------------------------------------------------------------->
     <nav class="navbar">
         <h1 class="shadows-into-light-regular | cursor-default">Lucy Sherman</h1>
         <a class="orange-web" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
         <a class="orange-web" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
-        <a class="btn btn-outline-info | is-hidden" href="./contact.html">about</a>
-        <a class="btn bitter-sweet-background | is-hidden" href="./about.html">contact</a>
+        <a class="btn btn-outline-info d-none d-md-block d-lg-block d-xl-block" href="./contact.html">about</a>
+        <a class="btn bitter-sweet-background d-none d-lg-block d-lg-block d-xl-block" href="./about.html">contact</a>
         <a class="orange-web" href="./menu.html"><i class="fa-solid fa-bars"></i></a>
     </nav>
-<!-------------------------------------section1-yassGif---------------------------------------------------------------->
-    <section class="position-relative">
-        <div class="mx-3">
-            <img class="w-100" src="./assets/gifs/yass.gif" alt="camera flash">
+
+    <!-------------------------------------section1-yassGIF---------------------------------------------------------------->
+    <section class="position-relative d-flex justify-content-center">
+        <div class="col-lg-auto">
+            <img class="w-100 shadow-1-strong rounded mb-4" src="./assets/gifs/yass.gif" alt="camera flash">
         </div>
-        <div class="position-absolute fixed-top h-100 d-flex flex-column justify-content-between">
-            <h1 class="w-50 text-center ml-5 p-1 | cursor-default rich-black bitter-sweet-background shadows-into-light-regular">
+
+        <div class="position-absolute fixed-top h-100 d-flex flex-column align-items-center justify-content-between">
+            <h1 class="w-50 text-center p-1 | cursor-default rich-black bitter-sweet-background shadows-into-light-regular">
                 Hi, I'm Lucy!
             </h1>
             <h1 class="w-50 text-center p-1 | cursor-default c-intro-text rich-black bitter-sweet-background shadows-into-light-regular">
                 Say cheese!</h1>
         </div>
     </section>
-<!----------------------------------------section2--------------------------------------------------------------------->
-    <section class="section-middle"></section>
+
+    <!----------------------------------------section2-gallery--------------------------------------------------------------------->
+    <section class="row mx-auto">
+        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+            />
+
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain1.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Wintry Mountain Landscape"
+            />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain2.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Mountains in the Clouds"
+            />
+
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Boat on Calm Water"
+            />
+        </div>
+
+        <div class="col-lg-4 mb-4 mb-lg-0">
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(18).webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Waves at Sea"
+            />
+
+            <img
+                    src="https://mdbcdn.b-cdn.net/img/Photos/Vertical/mountain3.webp"
+                    class="w-100 shadow-1-strong rounded mb-4"
+                    alt="Yosemite National Park"
+            />
+        </div>
+    </section>
     <section class="section-bottom"></section>
 </div>
 </body>
