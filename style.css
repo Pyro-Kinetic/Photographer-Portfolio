@@ -10,7 +10,7 @@ body {
 }
 
 
-/*---------------------------------------------------structure-------------------------------------------------------*/
+/*-- cursor and rotation --*/
 
 .c-intro-text {
     rotate: -10deg;
@@ -20,15 +20,7 @@ body {
     cursor: default;
 }
 
-.section-middle {
-    background-color: hotpink;
-}
-
-.section-bottom {
-    background-color: green;
-}
-
-/*---------------------------------------------------------fonts-----------------------------------------------------*/
+/*-- fonts --*/
 .shadows-into-light-regular {
     font-family: "Shadows Into Light", cursive;
     font-weight: 400;
@@ -46,7 +38,7 @@ body {
     font-variation-settings: "wdth" 100;
 }
 
-/*---------------------------------------------------colors---------------------------------------------*/
+/*-- colors --*/
 .rich-black {
     color: #011627;
 }
@@ -87,7 +79,7 @@ body {
     background-color: #C11F96;
 }
 
-/*--------------------------------------------------hover effects-------------------------------------------------*/
+/*-- hover effects --*/
 .bitter-sweet-background:hover {
     background-color: #fcab10;
 }
@@ -108,8 +100,3 @@ body {
 .orange-web:hover {
     color: #f97068;
 }
-
-/*-----------------------------------------------media queries------------------------------------------------------*/
-/*.is-hidden {*/
-/*    display: none;*/
-/*}*/
