@@ -55,7 +55,7 @@
     color: #f97068;
 }
 
-.bitter-sweet-background {
+.bitter-sweet-background, .bitter-sweet-background2 {
     background-color: #f97068;
 }
 
@@ -63,7 +63,7 @@
     color: #fcab10;
 }
 
-.orange-web-background {
+.orange-web-background, .orange-web-no-hover {
     background-color: #fcab10;
 }
 
@@ -71,7 +71,7 @@
     color: #54b4d3;
 }
 
-.bootstrap-info {
+.bootstrap-info-background {
     background-color: #54b4d3;
 }
 
@@ -86,6 +86,11 @@
 /*--------------------------------------------------hover effects-------------------------------------------------*/
 .bitter-sweet-background:hover {
     background-color: #fcab10;
+}
+
+.bitter-sweet-background2:hover {
+    background-color: #011627;
+    color: whitesmoke;
 }
 
 .orange-web-background:hover {
