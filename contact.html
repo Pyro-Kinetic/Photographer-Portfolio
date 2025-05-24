@@ -26,49 +26,51 @@
 </head>
 <body>
 <!-----------------------------------------navbar---------------------------------------------------------------------->
-<nav class="navbar">
+<nav class="navbar mb-5">
     <h1 class="shadows-into-light-regular | cursor-default">Lucy Sherman</h1>
     <a class="orange-web" href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
     <a class="orange-web" href="https://x.com/"><i class="fa-brands fa-x-twitter"></i></a>
-    <a class="btn btn-outline-info d-none d-md-block d-lg-block d-xl-block" href="./contact.html">about</a>
+    <a class="btn btn-outline-info d-none d-md-block d-lg-block d-xl-block" href="./about.html">about</a>
     <a class="btn bitter-sweet-background d-none d-lg-block d-lg-block d-xl-block" href="./main.html">home</a>
     <a class="orange-web" href="./menu.html"><i class="fa-solid fa-bars"></i></a>
 </nav>
 
 <!------------------------------------------form----------------------------------------------------------------------->
 <div class="container | rich-black-background">
-    <form id="contact-form" action="mail.php" method="POST">
+    <form id="contact-form" action="" method="POST">
+
         <!-- Title -->
-        <div class="d-flex justify-content-center">
-            <h2 class="bitter-sweet-background p-1 | roboto-900">Contact</h2>
+        <div class="d-flex justify-content-center mb-4">
+            <h2 class="cursor-default p-1 | orange-web-background roboto-900">Contact</h2>
         </div>
 
         <!-- Name input -->
         <div data-mdb-input-init class="form-outline mb-4">
-            <input type="text" id="name" name="name" class="form-control" />
-            <label class="form-label" for="name">Name</label>
+            <input type="text" id="name" name="name" class="form-control btn-secondary"/>
+            <label class="form-label text-secondary" for="name">Name</label>
         </div>
 
         <!-- Email input -->
         <div data-mdb-input-init class="form-outline mb-4">
-            <input type="email" id="email" name="email" class="form-control" />
-            <label class="form-label" for="email">Email address</label>
+            <input type="email" id="email" name="email" class="form-control btn-secondary"/>
+            <label class="form-label text-secondary" for="email">Email address</label>
         </div>
 
         <!-- Subject input -->
         <div data-mdb-input-init class="form-outline mb-4">
-            <input type="text" id="subject" name="subject" class="form-control" />
-            <label class="form-label" for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" class="form-control btn-secondary"/>
+            <label class="form-label text-secondary" for="subject">Subject</label>
         </div>
 
         <!-- Message input -->
         <div data-mdb-input-init class="form-outline mb-4">
-            <textarea class="form-control" id="message" name="message" rows="4"></textarea>
-            <label class="form-label" for="message">Message</label>
+            <textarea class="form-control btn-secondary" id="message" name="message" rows="4"></textarea>
+            <label class="form-label text-secondary" for="message">Message</label>
         </div>
 
         <!-- Submit button -->
-        <button data-mdb-button-init id="submit-form" type="submit" data-mdb-ripple-init class="btn btn-primary btn-block mb-4">
+        <button data-mdb-button-init id="submit-form" type="submit" data-mdb-ripple-init
+                class="btn btn-block mb-4 | orange-web-background">
             Send
         </button>
     </form>
